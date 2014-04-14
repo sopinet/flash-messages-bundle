@@ -1,0 +1,21 @@
+{% block notification %}
+
+    {% block css %}
+	   	{% stylesheets
+	    	'@SopinetFlashMessagesBundle/Resources/public/msgGrowl/css/msgGrowl.css'
+	    	output='css/*.css' filter='cssrewrite' %}
+	    	<link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
+		{% endstylesheets %}
+    {% endblock %}
+
+	{% block js %} 
+		{% javascripts 
+			'@SopinetFlashMessagesBundle/Resources/public/msgGrowl/js/msgGrowl.js'
+		%}
+		<script type="text/javascript" src="{{ asset_url }}"></script>
+		{% endjavascripts %}
+	{% endblock %}
+	
+	{% include 'SopinetFlashMessagesBundle:Messages:flashmessage.html.twig' %} 
+	
+{% endblock %}
