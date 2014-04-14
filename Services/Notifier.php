@@ -1,11 +1,11 @@
 <?php
 
-namespace Sopinet\NotifierBundle\Service;
+namespace Sopinet\FlashMessagesBundle\Service;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Session\Session;
 
-class Notifier{
+class FlashNotifier{
 
 	public function addFlashMessages($type = 'success', $message = 'Sopinet NotifierBundle'){
 
