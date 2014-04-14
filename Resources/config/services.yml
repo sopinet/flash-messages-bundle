@@ -2,6 +2,8 @@ parameters:
 #    sopinet_flash_messages.example.class: Sopinet\FlashMessagesBundle\Example
 
 services:
-#    sopinet_flash_messages.example:
-#        class: %sopinet_flash_messages.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    sopinet_flashMessages:
+        class:        Sopinet\FlashMessagesBundle\Service\FlashNotifier
+        arguments:
+            entityManager: @doctrine.orm.entity_manager
+            container: @service_container
