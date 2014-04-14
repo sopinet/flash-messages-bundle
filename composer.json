@@ -1,5 +1,5 @@
 {
-    "name": "sopinet/FlashMessages-bundle",
+    "name": "sopinet/flash-messages-bundle",
     "version": "0.0.1",
     "description": "Symfony2 Bundle - Allow create notifications rendered through msgGrowl.js",
     "keywords": ["mgsGrowl", "FlashMessages", "symfony2", "javaScript","bundle"],
