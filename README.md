@@ -9,3 +9,7 @@ Help
 [English](https://github.com/sopinet/flash-messages-bundle/blob/master/help.en.md) - English Documentation
 
 [Español](https://github.com/sopinet/flash-messages-bundle/blob/master/help.es.md) - Documentación en Español
+
+TRAZEO
+======
+Desarrollo financiado, inicialmente, gracias a la campaña de CrowdFunding del proyecto Trazeo.
