@@ -3,6 +3,10 @@ Help.es
 
 Documentación en Español
 
+Requisitos
+----------
+1. Estar cargando JQuery
+
 Instalación
 -----------
 
